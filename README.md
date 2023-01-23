@@ -1,4 +1,7 @@
-Capture More Structured Context by Transformer for Sketch Recognition
+# Capture More Structured Context by Transformer for Sketch Recognition
+
+This code repository is the official source code of the paper "Capture More Structured Context by Transformer for Sketch Recognition".
+
 | Model              | Dataset        | Acc(%) | Model Weight                                                 |
 | ------------------ | -------------- | ------ | ------------------------------------------------------------ |
 | ViT w/ SketchOLS   | Quickdraw-414k | 76.6   | [Link](https://drive.google.com/file/d/1rxL2bllhVfXN3U4IlfsZ9eLAHKzr0rXZ/view?usp=share_link) |
@@ -11,4 +14,8 @@ Capture More Structured Context by Transformer for Sketch Recognition
 | Swin wo/ SketchOLS | Quickdraw-414k | 77.6   | [Link](https://drive.google.com/file/d/1UBNdJWeUL_5nG1EQwDncH5QtY5hOXBqA/view?usp=share_link) |
 | ViT wo/ SketchOLS  | Quickdraw-3.8M | 80.6   |                                                              |
 | Swin wo/ SketchOLS | Quickdraw-3.8M | 81.0   |                                                              |
+
+
+
+
 

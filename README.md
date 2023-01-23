@@ -1,3 +1,4 @@
+Capture More Structured Context by Transformer for Sketch Recognition
 | Model              | Dataset        | Acc(%) | Model Weight                                                 |
 | ------------------ | -------------- | ------ | ------------------------------------------------------------ |
 | ViT w/ SketchOLS   | Quickdraw-414k | 76.6   | [Link](https://drive.google.com/file/d/1rxL2bllhVfXN3U4IlfsZ9eLAHKzr0rXZ/view?usp=share_link) |

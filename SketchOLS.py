@@ -3,11 +3,8 @@ import torch.nn as nn
 from torch import Tensor
 
 
-class OnlineLabelSmoothing(nn.Module):
-    """
-    Implements Online Label Smoothing from paper
-    https://arxiv.org/pdf/2011.12562.pdf
-    """
+class SketchOnlineLabelSmoothing(nn.Module):
+    
 
     def __init__(self, alpha: float, n_classes: int, smoothing: float = 0.1):
         """

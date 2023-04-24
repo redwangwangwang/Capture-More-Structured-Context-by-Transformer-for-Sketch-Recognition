@@ -6,7 +6,7 @@ from torch import Tensor
 class SketchOnlineLabelSmoothing(nn.Module):
     
 
-    def __init__(self, alpha: float, n_classes: int, smoothing: float = 0.1):
+    def __init__(self, alpha: float, n_classes: int, smoothing: float = 0.1, labelsmoothing:float=0.1):
         """
         :param alpha: Term for balancing soft_loss and hard_loss
         :param n_classes: Number of classes of the classification problem
@@ -25,7 +25,7 @@ class SketchOnlineLabelSmoothing(nn.Module):
         self.register_buffer('update', torch.zeros_like(self.supervise))
         # For normalizing we need a count for each class
         self.register_buffer('idx_count', torch.zeros(n_classes))
-        self.hard_loss = nn.CrossEntropyLoss(label_smoothing=smoothing)
+        self.hard_loss = nn.CrossEntropyLoss(label_smoothing=labelsmoothing)
 
     def forward(self, y_h: Tensor, y: Tensor):
         # Calculate the final loss

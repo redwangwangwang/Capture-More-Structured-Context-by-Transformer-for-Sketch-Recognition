@@ -11,6 +11,7 @@ class SketchOnlineLabelSmoothing(nn.Module):
         :param alpha: Term for balancing soft_loss and hard_loss
         :param n_classes: Number of classes of the classification problem
         :param smoothing: Smoothing factor to be used during first epoch in soft_loss
+        :param smoothing: Labelsmoothing factor to be used in hard_loss
         """
         super(OnlineLabelSmoothing, self).__init__()
         assert 0 <= alpha <= 1, 'Alpha must be in range [0, 1]'

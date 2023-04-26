@@ -1,6 +1,6 @@
 # Capture More Structured Context by Vision Transformers for Sketch Recognition
 
-This code repository is the official source code of the paper "Capture More Structured Context by Transformer for Sketch Recognition".
+This code repository is the official source code of the paper "Capture More Structured Context by Vision Transformers for Sketch Recognition".
 
 | Model              | Dataset        | Acc(%) | Model Weight                                                 |
 | ------------------ | -------------- | ------ | ------------------------------------------------------------ |
